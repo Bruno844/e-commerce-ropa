@@ -1,101 +1,216 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- vincular html con css y js -->
-    <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
-    <!-- importar fuentes de Google Fonts  -->
-    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-   <!-- boostrap css js y icons -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> 
-  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- vincular html con css y js -->
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js"></script>
+  <!-- importar fuentes de Google Fonts  -->
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Open+Sans:wght@700&display=swap"
+    rel="stylesheet">
+  <!-- boostrap css js y icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
 </head>
+
 <body>
-    <header>
-        <div class="logo">
-            <h1 class="">Shop</h1>
-            </div>
-            <nav class="menu-nav container">
-           <div class="nav-link" >
-            <ul>
-           <li><a href="#" >Nuevo</a></li>
-           <li><a href="#" >Mujeres</a></li>
-           <li><a href="#" >Hombres</a></li>
-           <li><a href="#" >Unisex</a></li>
-           </ul>
-            </div>
-        </nav>
-        <div class="nav-icon">
-            <i class="bi bi-heart-fill"></i>
-            <i class="bi bi-bag"></i>
-            <i class="bi bi-person-circle"></i>
-          </div>
-            <!-- <button id="checkout" class="button-checkout" onclick="pay('')"> Pagar</button> -->
-    </header>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="image/imag1car.webp" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="image/imag2car.webp" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="image/imag3car.webp" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+  <nav class="navbar navbar-expand-lg  my-3">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-4" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item text-center ">
+            <a class="nav-link active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nuevo</a>
+          </li>
+          <li class="nav-item dropdown mx-4">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Mujeres
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-4">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Hombres
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item text-center ">
+            <a class="nav-link active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Unisex</a>
+          </li>
+        </ul>
       </div>
-    <div class="page-content">
-    <div class="product-container">
-        <h3>Nombre</h3>
-        <img src="image/prod-1.jpg"/>
-        <h2>$5000</h2>
-        <button  class="button-add" onclick="add('prod-1', 5000)"> agregar</button>
+      <div class="nav-icon mr-3">
+        <i class="bi bi-heart-fill"></i>
+        <i class="bi bi-bag mx-4"></i>
+        <i class="bi bi-person-circle"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!--<header>
+      <div class="logo">
+        <h1 class="">Shop</h1>
+      </div>
+      <nav class="menu-nav container">
+        <div class="nav-link" >
+          <ul>
+            <li><a href="#" >Nuevo</a></li>
+            <li><a href="#" >Mujeres</a></li>
+            <li><a href="#" >Hombres</a></li>
+            <li><a href="#" >Unisex</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="nav-icon">
+          <i class="bi bi-heart-fill"></i>
+          <i class="bi bi-bag"></i>
+          <i class="bi bi-person-circle"></i>
+      </div>
+      <button id="checkout" class="button-checkout" onclick="pay('')"> Pagar</button>
+    </header>-->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner principal">
+      <div class="carousel-item active">
+        <img src="image/imag1car.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image/imag2car.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image/imag3car.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--SECCION DE LAS ULTIMAS NOVEDADES-->
+  <hr class="featurette-divider">
+
+  
+  <div class="container page-content">
+    <div class="container my-5">
+      <h1 class="text-center">Nuestras ultimas novedades</h1>
     </div>
     <div class="product-container">
-        <h3>Nombre</h3>
-        <img src="image/prod-2.jpg"/>
-        <h2>$7100</h2>
-        <button class="button-add" onclick="add('prod-2', 7100)"> agregar</button>
+      <p class="text-center">Nombre</p>
+      <img src="image/prod-1.jpg" />
+      <h4 class="text-center">$5000</h4>
+      <!--<button class="button-add" onclick="add('prod-1', 5000)"> agregar</button>-->
     </div>
     <div class="product-container">
-        <h3>Nombre</h3>
-        <img src="image/prod-3.jpg"/>
-        <h2>$7777</h2>
-        <button class="button-add "onclick="add('prod-3', 7777)" > agregar</button>
+      <p class="text-center">Nombre</p>
+      <img src="image/prod-2.jpg" />
+      <h4 class="text-center">$7100</h4>
+      <!--<button class="button-add" onclick="add('prod-2', 7100)"> agregar</button>-->
     </div>
     <div class="product-container">
-        <h3>Nombre</h3>
-        <img src="image/prod-4.jpg"/>
-        <h2>$6900</h2>
-        <button class="button-add" onclick="add('prod-4', 6900)"> agregar</button>
+      <p class="text-center">Nombre</p>
+      <img src="image/prod-3.jpg" />
+      <h4 class="text-center">$7777</h4>
+      <!--<button class="button-add " onclick="add('prod-3', 7777)"> agregar</button>-->
     </div>
     <div class="product-container">
-        <h3>Nombre</h3>
-        <img src="image/prod-5.jpg"/>
-        <h2>$4300</h2>
-        <button class="button-add"onclick="add('prod-5', 4300)" > agregar</button>
+      <p class="text-center">Nombre</p>
+      <img src="image/prod-3.jpg" />
+      <h4 class="text-center">$7777</h4>
+      <!--<button class="button-add " onclick="add('prod-3', 7777)"> agregar</button>-->
+    </div>
+  </div>
+
+
+    <div class="container-fluid ventas bg-primary">
+      <!-- Three columns of text below the carousel -->
+      <div class="container-fluid row text-center">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg>
+
+          <h2 class="fw-normal">Heading</h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
+            column.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg>
+
+          <h2 class="fw-normal">Heading</h2>
+          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg>
+
+          <h2 class="fw-normal">Heading</h2>
+          <p>And lastly this, the third column of representative placeholder content.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+
+
+
+      <!--
+    <div class="product-container">
+      <p >Nombre</p >
+      <img src="image/prod-4.jpg" />
+      <h2>$6900</h2>
+      <button class="button-add" onclick="add('prod-4', 6900)"> agregar</button>
     </div>
     <div class="product-container">
-        <h3>Nombre</h3>
-        <img src="image/prod-6.jpg"/>
-        <h2>$5900</h2>
-        <button class="button-add" onclick="add('prod-6', 5900)" > agregar</button>
+      <p >Nombre</p >
+      <img src="image/prod-5.jpg" />
+      <h2>$4300</h2>
+      <button class="button-add" onclick="add('prod-5', 4300)"> agregar</button>
     </div>
+    <div class="product-container">
+      <p >Nombre</p >
+      <img src="image/prod-6.jpg" />
+      <h2>$5900</h2>
+      <button class="button-add" onclick="add('prod-6', 5900)"> agregar</button>
+    </div>
+    -->
 </body>
+
 </html>
