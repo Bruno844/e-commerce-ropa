@@ -1,6 +1,6 @@
 header {
     position: relative;
-    background-color: black;
+    /* background-color: black; */
     height: 75vh;
     min-height: 25rem;
     width: 100%;
@@ -84,7 +84,7 @@ a:hover {
 .section-products .header h2 {
     font-size: 2.2rem;
     font-weight: 400;
-    color: #444444; 
+    /* color: #444444;  */
 }
 
 .section-products .single-product {
@@ -116,24 +116,24 @@ a:hover {
 
 
 .section-products #product-1 .part-1::before {
-    background: url("./image/prod-1.jpg") no-repeat center;
+    background: url("./image/remeras/remera1.jpg") no-repeat center;
     background-size: cover;
 		transition: all 0.3s;
 }
 
 
 .section-products #product-2 .part-1::before {
-    background: url("./image/prod-2.jpg") no-repeat center;
+    background: url("./image/musculosas/muscu2.jpg") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url("./image/prod-5.jpg") no-repeat center;
+    background: url("./image/tops/top3.jpg") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-    background: url("./image//prod-4.jpg") no-repeat center;
+    background: url("./image/musculosas/muscu3.jpg") no-repeat center;
     background-size: cover;
 }
 
@@ -184,7 +184,7 @@ a:hover {
     color: #444444;
     text-align: center;
     box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
-    transition: color 0.2s;
+    transition: color 1.5s;
 }
 
 .section-products .single-product .part-1 ul li a:hover {
@@ -217,6 +217,18 @@ a:hover {
     background-color: #444444;
     transform: translateY(-50%);
 }
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.s1{
+    background-color: black;
+    background-position: unset;
+    background-size: 100%;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
 
 
